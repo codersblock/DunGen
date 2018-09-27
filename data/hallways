@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<rooms>
+    <room>
+        <tile>
+            <x>0</x>
+            <y>0</y>
+        </tile>
+        <tile>
+            <x>1</x>
+            <y>0</y>
+            <wall>SOUTH</wall>
+            <wall>NORTH</wall>
+        </tile>
+        <tile>
+            <x>2</x>
+            <y>0</y>
+        </tile>
+    </room>
+    <room>
+        <tile>
+            <x>0</x>
+            <y>0</y>
+        </tile>
+        <tile>
+            <x>0</x>
+            <y>1</y>
+            <wall>EAST</wall>
+            <wall>WEST</wall>
+        </tile>
+        <tile>
+            <x>0</x>
+            <y>2</y>
+        </tile>
+    </room>
+</rooms>
