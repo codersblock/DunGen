@@ -1,0 +1,12 @@
+if [ ! -d "./bin" ]
+then
+	mkdir bin
+fi
+
+if [ ! -d "./jar" ]
+then
+	mkdir jar
+fi
+
+javac -cp ./bin/ -d ./bin/ ./src/*.java ./src/room/*.java
+jar cvmf ./jar/manifest.mf jar/DunGen.jar -C ./bin/ .

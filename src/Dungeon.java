@@ -1,4 +1,3 @@
-import com.sun.istack.internal.NotNull;
 import room.Direction;
 import room.Room;
 import room.Tile;
@@ -16,7 +15,7 @@ public class Dungeon {
     private ArrayList<Room> rooms;
     private ArrayList<Tile> completedDungeon;
 
-    public Dungeon(int numRooms, @NotNull ArrayList<Room> roomTemplates) {
+    public Dungeon(int numRooms, ArrayList<Room> roomTemplates) {
         this.numRooms = numRooms;
         this.numTemplates = roomTemplates.size();
         this.rooms = new ArrayList<>();
