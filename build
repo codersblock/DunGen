@@ -8,5 +8,5 @@ then
 	mkdir jar
 fi
 
-javac -cp ./bin/ -d ./bin/ ./src/*.java ./src/room/*.java
-jar cvmf ./jar/manifest.mf jar/DunGen.jar -C ./bin/ .
+javac -d ./bin/ src/*.java src/room/*.java
+jar cvmf ./jar/manifest.mf jar/DunGen.jar ./data/ -C ./bin/ .

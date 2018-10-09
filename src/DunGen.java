@@ -27,9 +27,9 @@ public class DunGen extends Frame{
 
     public ArrayList<Room> roomTemplates = new ArrayList<>();
 
-    public static void main(String[] args) {
-        new DunGen();
-    }
+    public static void main(String[] args) { 
+		new DunGen();
+	}
 
     public DunGen() {
         super("Dungeon Generator");
